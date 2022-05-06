@@ -41,10 +41,22 @@ GIVEN a functional Express.js API
 
 ## Installation
 ---
+- Download repo from github, run "npm i" to install all dependencies, create a ".env" file and then add this code to the created file: 
 
+- DB_NAME='ecommerce_db'
+- DB_USER='root'
+- DB_PW=''
+
+---
+- Replace the "user and pw" fields with your respective username and password.
+- run "mysql -u root -p" to access your MySQL shell. run "source db/schema.sql;" to create the ecommerce_db database.
+- exit MySQL shell and run "node seeds/index.js" to seed database.
+- run "npm start" to start your server and begin testing within insomnia.
 
 ## Usage
 ---
+
+- The current usage of this application is to practice and build a back end database with table relationships and api routes displaying said data. The routes follow CRUD operations and RESTful api standards to the best of my current ability.
 
 
 ## License Information
@@ -58,8 +70,12 @@ GIVEN a functional Express.js API
 
 ## Working Example of Project
 ---
+[Demo of Working Example - Google Drive Video](https://drive.google.com/file/d/1XkxXxX3zOzXqgEJACXc_Uhef8LHKcM9m/view?usp=sharing)
 
-![Gif]()
 
 ## Weekly Reflection
 ---
+
+- This weeks assignment was not as difficult as I was dreading, but the relationship aspect of the models was definitely the hardest for me to conceptually grasp. I need more practice with sequelize and model syntax but I'm confident at what I can recall right now. Project 2 is coming up very soon and I'm doing my best to catch up and grasp all I can. I'm looking forward to working with my team again and experiecing the team work flow again! Leaning on people who are passionate about coding just as much or even more so than me is a truly unique feeling. Here's to another week! 
+
+-J
